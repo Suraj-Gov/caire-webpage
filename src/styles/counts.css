@@ -1,8 +1,11 @@
 .count-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+}
+
+.count-container > svg {
+  width: 8rem;
 }
 
 .count-container > .count-info {
@@ -20,4 +23,5 @@
 .count-info > p {
   font-size: 1.3em;
   text-transform: uppercase;
+  display: inline-block;
 }

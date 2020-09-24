@@ -39,25 +39,25 @@ export default class AboutUs extends React.Component {
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
           </div>
           <h3>OUR PARTNERS AND ADVISORS</h3>
@@ -67,43 +67,41 @@ export default class AboutUs extends React.Component {
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
+            />
+            <Person
+              personName="Alice"
+              personDesignation="Chair"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
+            />
+            <Person
+              personName="Alice"
+              personDesignation="Chair"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
             <Person
               personName="Alice"
               personDesignation="Chair"
               personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
-            />
-            <Person
-              personName="Alice"
-              personDesignation="Chair"
-              personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
-            />
-            <Person
-              personName="Alice"
-              personDesignation="Chair"
-              personDetails="Idk, just fill some stuff here about the person"
-              personImg="/images/personImgs/alice.jpg"
+              personImg={`${process.env.PUBLIC_URL}/images/personImgs/alice.jpg`}
             />
           </div>
         </div>

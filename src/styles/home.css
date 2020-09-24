@@ -90,6 +90,9 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    align-items: flex-start;
+  }
+
+  .counts > * {
+    margin: 2rem 0;
   }
 }

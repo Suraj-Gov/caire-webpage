@@ -13,7 +13,10 @@ export default class Home extends React.Component {
         <div className="home">
           <div className="home-landing">
             <h1>Center for Artificial Intelligence Research & Education</h1>
-            <img src="/images/caire-landing.png" alt="ai-workspace" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/caire-landing.png`}
+              alt="ai-workspace"
+            />
           </div>
           <p>
             Leverage agile frameworks to provide a robust synopsis for high
