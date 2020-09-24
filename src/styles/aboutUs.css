@@ -86,3 +86,82 @@
     margin: 3rem auto;
   }
 }
+
+@media only screen and (max-width: 50rem) {
+  .about {
+    background-color: #14399e;
+    padding: 2rem;
+    padding-top: 3rem;
+  }
+
+  .about > h2 {
+    font-size: 2em;
+  }
+
+  .about > p {
+    font-size: 1.3em;
+    margin: 3rem 0;
+  }
+
+  .about > h3 {
+    font-size: 1.8em;
+  }
+
+  .about > ul {
+    font-size: 1.3em;
+    margin: 3rem 0;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+
+  .about > ul > li {
+    margin: 0.7rem 0;
+  }
+
+  .about > .team {
+    display: flex;
+    margin: 3rem auto;
+    flex-direction: column;
+  }
+
+  .person {
+    background-color: #4f75de;
+    box-shadow: 9px 9px 30px rgba(0, 3, 51, 0.185);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem;
+  }
+
+  .person > img {
+    width: auto;
+    height: auto;
+    max-height: 7rem;
+    max-width: 7rem;
+    display: block;
+    border-radius: 20px;
+  }
+
+  .person > .details > * {
+    margin: 0.5rem 2rem;
+  }
+
+  .person > .details > .name {
+    font-size: 2em;
+  }
+
+  .person > .details > .details {
+    display: none;
+  }
+
+  .about > .partners {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+  }
+
+  .about-container > svg {
+    position: absolute;
+  }
+}

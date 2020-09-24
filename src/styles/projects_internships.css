@@ -24,3 +24,33 @@
     padding-top: 5rem;
   }
 }
+
+@media only screen and (max-width: 50rem) {
+  .pi-container {
+    padding: 2rem;
+    padding-top: 5rem;
+  }
+  .pi-container {
+    background-color: #0b2569;
+  }
+
+  .pi-container > * {
+    margin: 3rem 0;
+    font-size: 1em;
+  }
+
+  .pi-container > h2 {
+    font-size: 2em;
+    margin: 0;
+    width: 50vw;
+  }
+
+  .pi-container > ul {
+    margin-left: 2rem;
+    font-size: 1.3em;
+  }
+
+  .pi-container > ul > li {
+    margin: 0.7rem 0;
+  }
+}

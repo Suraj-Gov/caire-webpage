@@ -6,6 +6,7 @@
   color: white;
 }
 
-#root {
+body {
   position: relative;
+  background-color: #002fff;
 }
