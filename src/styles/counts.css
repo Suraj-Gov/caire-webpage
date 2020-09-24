@@ -1,0 +1,23 @@
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.count-container > .count-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: start;
+  padding-left: 1rem;
+}
+
+.count-info > h3 {
+  font-size: 300%;
+}
+
+.count-info > p {
+  font-size: 150%;
+  text-transform: uppercase;
+}
