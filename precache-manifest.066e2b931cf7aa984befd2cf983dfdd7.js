@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4aaa883ac5e5dad2166fca4047b56c3d",
+    "revision": "a8e845e975ed6d8f188abd82e74a35b3",
     "url": "/caire-webpage/index.html"
   },
   {
-    "revision": "47e519e6ca0833565b32",
-    "url": "/caire-webpage/static/css/main.0c93efe4.chunk.css"
+    "revision": "bbd9ca5f166df10b07f9",
+    "url": "/caire-webpage/static/css/main.82c1c65f.chunk.css"
   },
   {
     "revision": "769d284f1088617bf81d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/caire-webpage/static/js/2.641be61c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47e519e6ca0833565b32",
-    "url": "/caire-webpage/static/js/main.608895ea.chunk.js"
+    "revision": "bbd9ca5f166df10b07f9",
+    "url": "/caire-webpage/static/js/main.a863e7b8.chunk.js"
   },
   {
     "revision": "4db2ebc0c6d23b2a920b",

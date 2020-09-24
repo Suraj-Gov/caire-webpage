@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/caire-webpage/static/css/main.0c93efe4.chunk.css",
-    "main.js": "/caire-webpage/static/js/main.608895ea.chunk.js",
-    "main.js.map": "/caire-webpage/static/js/main.608895ea.chunk.js.map",
+    "main.css": "/caire-webpage/static/css/main.82c1c65f.chunk.css",
+    "main.js": "/caire-webpage/static/js/main.a863e7b8.chunk.js",
+    "main.js.map": "/caire-webpage/static/js/main.a863e7b8.chunk.js.map",
     "runtime-main.js": "/caire-webpage/static/js/runtime-main.777a2c3a.js",
     "runtime-main.js.map": "/caire-webpage/static/js/runtime-main.777a2c3a.js.map",
     "static/js/2.641be61c.chunk.js": "/caire-webpage/static/js/2.641be61c.chunk.js",
     "static/js/2.641be61c.chunk.js.map": "/caire-webpage/static/js/2.641be61c.chunk.js.map",
     "index.html": "/caire-webpage/index.html",
-    "precache-manifest.ccce2b18a929410acfa5c81d32b74261.js": "/caire-webpage/precache-manifest.ccce2b18a929410acfa5c81d32b74261.js",
+    "precache-manifest.066e2b931cf7aa984befd2cf983dfdd7.js": "/caire-webpage/precache-manifest.066e2b931cf7aa984befd2cf983dfdd7.js",
     "service-worker.js": "/caire-webpage/service-worker.js",
-    "static/css/main.0c93efe4.chunk.css.map": "/caire-webpage/static/css/main.0c93efe4.chunk.css.map",
+    "static/css/main.82c1c65f.chunk.css.map": "/caire-webpage/static/css/main.82c1c65f.chunk.css.map",
     "static/js/2.641be61c.chunk.js.LICENSE.txt": "/caire-webpage/static/js/2.641be61c.chunk.js.LICENSE.txt",
     "static/media/internship.d6829f37.svg": "/caire-webpage/static/media/internship.d6829f37.svg",
     "static/media/patent.2edbf11f.svg": "/caire-webpage/static/media/patent.2edbf11f.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.777a2c3a.js",
     "static/js/2.641be61c.chunk.js",
-    "static/css/main.0c93efe4.chunk.css",
-    "static/js/main.608895ea.chunk.js"
+    "static/css/main.82c1c65f.chunk.css",
+    "static/js/main.a863e7b8.chunk.js"
   ]
 }
