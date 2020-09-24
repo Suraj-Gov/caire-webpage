@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import AboutUs from "./components/aboutUs";
 import Home from "./components/home";
+import ProjectsInternships from "./components/projects_internships";
 import "./styles/main.css";
 
 class Main extends React.Component {
@@ -10,7 +12,13 @@ class Main extends React.Component {
   }
 
   render() {
-    return <Home />;
+    return (
+      <>
+        <Home />
+        <AboutUs />
+        <ProjectsInternships />
+      </>
+    );
   }
 }
 

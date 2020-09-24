@@ -1,0 +1,26 @@
+.pi-container {
+  background-color: #0b2569;
+  padding: 8rem;
+}
+
+.pi-container > * {
+  margin: 3rem 0;
+  font-size: 1.5em;
+}
+
+.pi-container > h2 {
+  font-size: 4em;
+  margin: 0;
+  width: 50rem;
+}
+
+.pi-container > ul {
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 80rem) {
+  .pi-container {
+    padding: 4rem;
+    padding-top: 5rem;
+  }
+}

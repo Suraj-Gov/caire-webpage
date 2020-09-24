@@ -1,0 +1,88 @@
+.about {
+  background-color: #14399e;
+  padding: 8rem;
+}
+
+.about > h2 {
+  font-size: 4em;
+}
+
+.about > p {
+  font-size: 2em;
+  margin: 3rem 0;
+}
+
+.about > h3 {
+  font-size: 3em;
+}
+
+.about > ul {
+  font-size: 2em;
+  margin: 3rem 0;
+  line-height: 3rem;
+  margin-left: 2rem;
+}
+
+.about > .team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-columns: minmax(15rem, auto);
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.person {
+  background-color: #4f75de;
+  box-shadow: 8.34369px 8.34369px 30px rgba(0, 4, 89, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 2rem;
+}
+
+.person > img {
+  width: auto;
+  height: auto;
+  max-height: 10rem;
+  max-width: 10rem;
+  display: block;
+  border-radius: 30px;
+}
+
+.person > .details > * {
+  margin: 0.5rem 2rem;
+}
+
+.person > .details > .name {
+  font-size: 2em;
+}
+
+.person > .details > .designation {
+  font-size: 1.5em;
+}
+
+.about > .partners {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: minmax(15rem, auto);
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.about-container > svg {
+  position: absolute;
+}
+
+@media only screen and (max-width: 80rem) {
+  .about {
+    padding: 4rem;
+  }
+
+  .about > .partners {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: minmax(10rem, auto);
+    gap: 2rem;
+    margin: 3rem auto;
+  }
+}

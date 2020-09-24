@@ -35,3 +35,14 @@
   gap: 2rem;
   margin: 1rem 5rem;
 }
+
+.home-container > .edge {
+  position: absolute;
+}
+
+@media only screen and (max-width: 80rem) {
+  .home {
+    padding: 4rem;
+    padding-top: 8rem;
+  }
+}

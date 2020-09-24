@@ -9,7 +9,7 @@ export default class Home extends React.Component {
   }
   render() {
     return (
-      <>
+      <div className="home-container">
         <div className="home">
           <div className="home-landing">
             <h1>Center for Artificial Intelligence Research & Education</h1>
@@ -24,11 +24,11 @@ export default class Home extends React.Component {
         </div>
 
         {/* prettier-ignore */}
-        <svg className="edge" width="auto" height="auto" viewBox="0 0 1280 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="edge" viewBox="0 0 1280 107" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0H1280V106.5L0 0Z" fill="#0145FF"/>
       </svg>
         {/* home edge */}
-      </>
+      </div>
     );
   }
 }
